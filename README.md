@@ -93,6 +93,7 @@ Para garantir que os testes funcionem corretamente, siga a ordem abaixo, pois el
        ```
     4. Clique em "Execute" e **anote o `id`** do aluno retornado.
 
+
 ## Prints dos Endpoints Testados (Exemplos do Swagger)
 
 A seguir estão os prints que documentam os testes realizados em cada endpoint da API.
@@ -101,66 +102,66 @@ A seguir estão os prints que documentam os testes realizados em cada endpoint d
 
 **1. Criando um Novo Plano (`POST /api/v1/planos`)**
 - Request:
-  ![Criar Plano (Request)](POST%20api-v1-planos%20(request).png)
+  ![Criar Plano (Request)](printendpoints/POST%20api-v1-planos%20(request).png)
 - Response:
-  ![Criar Plano (Response)](POST%20api-v1-planos%20(response).png)
+  ![Criar Plano (Response)](printendpoints/POST%20api-v1-planos%20(response).png)
 
 **2. Listando Planos (`GET /api/v1/planos`)**
 - Response:
-  ![Listar Planos](GET%20api-v1-planos%20.png)
+  ![Listar Planos](printendpoints/GET%20api-v1-planos%20.png)
 
 ### Gerenciamento de Treinos
 
 **1. Criando um Novo Treino (`POST /api/v1/treinos`)**
 - Request:
-  ![Criar Treino (Request)](POST%20api-v1-treinos%20(request).png)
+  ![Criar Treino (Request)](printendpoints/POST%20api-v1-treinos%20(request).png)
 - Response:
-  ![Criar Treino (Response)](POST%20api-v1-treinos%20(response).png)
+  ![Criar Treino (Response)](printendpoints/POST%20api-v1-treinos%20(response).png)
 
 **2. Listando Treinos (`GET /api/v1/treinos`)**
 - Response:
-  ![Listar Treinos](GET%20api-v1-treinos.png)
+  ![Listar Treinos](printendpoints/GET%20api-v1-treinos.png)
 
 **3. Deletando um Treino (`DELETE /api/v1/treinos/{id}`)**
 - Response:
-  ![Deletar Treino](DELETE%20api-v1-treinos-id.png)
+  ![Deletar Treino](printendpoints/DELETE%20api-v1-treinos-id.png)
 
 ### Gerenciamento de Alunos
 
 **1. Criando um Novo Aluno (`POST /api/v1/alunos`)**
 - Request:
-  ![Criar Aluno (Request)](POST%20api-v1-alunos%20(request).png)
+  ![Criar Aluno (Request)](printendpoints/POST%20api-v1-alunos%20(request).png)
 - Response:
-  ![Criar Aluno (Response)](POST%20api-v1-alunos%20(response).png)
+  ![Criar Aluno (Response)](printendpoints/POST%20api-v1-alunos%20(response).png)
 
 **2. Listando todos os Alunos (`GET /api/v1/alunos`)**
 - Response:
-  ![Listar Alunos](GET%20api-v1-alunos%20.png)
+  ![Listar Alunos](printendpoints/GET%20api-v1-alunos%20.png)
 
 **3. Buscando Aluno por ID (`GET /api/v1/alunos/{id}`)**
 - Response:
-  ![Buscar Aluno por ID](GET%20api-v1-alunos-id%20.png)
+  ![Buscar Aluno por ID](printendpoints/GET%20api-v1-alunos-id%20.png)
 
 **4. Atualizando um Aluno (`PUT /api/v1/alunos/{id}`)**
 - Request:
-  ![Atualizar Aluno (Request)](PUT%20api-v1-alunos-id%20(request).png)
+  ![Atualizar Aluno (Request)](printendpoints/PUT%20api-v1-alunos-id%20(request).png)
 - Response:
-  ![Atualizar Aluno (Response)](PUT%20api-v1-alunos-id%20(response).png)
+  ![Atualizar Aluno (Response)](printendpoints/PUT%20api-v1-alunos-id%20(response).png)
 
 **5. Inativando um Aluno (`PATCH /api/v1/alunos/{id}/inativar`)**
 - Response:
-  ![Inativar Aluno](PATCH%20api-v1-alunos-id-inativar.png)
+  ![Inativar Aluno](printendpoints/PATCH%20api-v1-alunos-id-inativar.png)
 
 ### Operações Associadas
 
 **1. Associando um Treino a um Aluno (`POST /api/v1/treinos/{treinoId}/associar-aluno`)**
 - Request:
-  ![Associar Treino (Request)](POST%20api-v1-treinos-treinoId-associar-aluno%20(request).png)
+  ![Associar Treino (Request)](printendpoints/POST%20api-v1-treinos-treinoId-associar-aluno%20(request).png)
 - Response:
-  ![Associar Treino (Response)](POST%20api-v1-treinos-treinoId-associar-aluno%20(response).png)
+  ![Associar Treino (Response)](printendpoints/POST%20api-v1-treinos-treinoId-associar-aluno%20(response).png)
 
 **2. Registrando um Pagamento (`POST /api/v1/alunos/{id}/pagamentos`)**
 - Request:
-  ![Registrar Pagamento (Request)](POST%20api-v1-alunos-id-pagamentos%20(request).png)
+  ![Registrar Pagamento (Request)](printendpoints/POST%20api-v1-alunos-id-pagamentos%20(request).png)
 - Response:
-  ![Registrar Pagamento (Response)](POST%20api-v1-alunos-id-pagamentos%20(response).png)
+  ![Registrar Pagamento (Response)](printendpoints/POST%20api-v1-alunos-id-pagamentos%20(response).png)
